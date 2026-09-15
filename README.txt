@@ -1,14 +1,16 @@
-MALEELE AGRO-VET DEALERS V5
+MALEELE AGRO-VET DEALERS - V4
 
-Upload these files to the repository root:
-index.html
-styles.css
-script.js
-maleele-logo.png
-README.txt
+IMPORTANT:
+The logo is intentionally loaded from the repository ROOT.
 
-Logo path: maleele-logo.png
+Required GitHub structure:
+MALEELEAGRO/
+├── index.html
+├── styles.css
+├── script.js
+└── maleele-logo.png
+
+Do NOT put the logo in an assets folder for this version.
+
 Contact: 0979 603185
 Location: Mumbwa New Station, Kabwe Complex
-
-V5 adds floating WhatsApp, call and back-to-top controls.
