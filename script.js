@@ -1,7 +1,8 @@
-const menuBtn=document.querySelector(".menu-btn");
-const nav=document.querySelector(".nav");
-menuBtn?.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuBtn.setAttribute("aria-expanded",String(open));menuBtn.textContent=open?"✕":"☰"});
-document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuBtn?.setAttribute("aria-expanded","false");if(menuBtn)menuBtn.textContent="☰"}));
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");observer.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
-document.getElementById("year").textContent=new Date().getFullYear();
+// MALEELE AGRO-VET DEALERS V5
+document.addEventListener("DOMContentLoaded",()=>{
+  const backTop=document.querySelector(".back-top");
+  window.addEventListener("scroll",()=>{
+    if(backTop) backTop.classList.toggle("show",window.scrollY>500);
+  },{passive:true});
+  backTop?.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+});
