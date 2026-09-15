@@ -1,28 +1,16 @@
-MALEELE AGRO-VET DEALERS - FULL WEBSITE FILES
+MALEELE AGRO-VET DEALERS - V4
 
-Upload this structure to the GitHub repository:
+IMPORTANT:
+The logo is intentionally loaded from the repository ROOT.
 
+Required GitHub structure:
 MALEELEAGRO/
 ├── index.html
 ├── styles.css
 ├── script.js
-└── assets/
-    └── maleele-logo.png
+└── maleele-logo.png
 
-The site is responsive and includes:
-- Cute green/orange/yellow/black/white branding
-- Home
-- About
-- Services
-- Products
-- Farmers section
-- Contact
-- WhatsApp buttons
-- Mobile navigation
-- Smooth reveal animations
+Do NOT put the logo in an assets folder for this version.
 
-Current contact:
-0979 603185
-
-Current location:
-Mumbwa New Station, Kabwe Complex
+Contact: 0979 603185
+Location: Mumbwa New Station, Kabwe Complex

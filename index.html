@@ -11,20 +11,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="#home">
-      <img src="assets/maleele-logo.png" alt="Maleele Agro-Vet Dealers logo">
+    <a class="brand" href="#home" aria-label="Maleele Agro-Vet Dealers home">
+      <img src="maleele-logo.png" alt="Maleele Agro-Vet Dealers logo">
     </a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#products">Products</a>
-      <a href="#farmers">Farmers</a>
-      <a href="#contact">Contact</a>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#products">Products</a><a href="#farmers">Farmers</a><a href="#contact">Contact</a>
     </nav>
     <a class="nav-cta" href="https://wa.me/260979603185" target="_blank" rel="noopener">WhatsApp Us</a>
   </div>
@@ -32,132 +27,85 @@
 
 <main>
 <section id="home" class="hero">
-  <div class="hero-shape shape-one"></div>
-  <div class="hero-shape shape-two"></div>
+  <div class="shape one"></div><div class="shape two"></div>
   <div class="container hero-content">
     <div class="hero-copy reveal">
       <span class="eyebrow">🌱 MUMBWA • ZAMBIA</span>
       <h1>Grow Better.<br><span>Farm Smarter.</span></h1>
       <p>Reliable agro-vet solutions for healthy animals, productive farms and a brighter future.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#products">Explore Products</a>
-        <a class="btn btn-white" href="https://wa.me/260979603185" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn primary" href="#products">Explore Products</a>
+        <a class="btn white" href="https://wa.me/260979603185" target="_blank" rel="noopener">Chat on WhatsApp</a>
       </div>
-      <div class="hero-pills">
-        <span>🌽 Farm Inputs</span>
-        <span>🐄 Animal Health</span>
-        <span>💧 Irrigation</span>
-      </div>
+      <div class="pills"><span>🌽 Farm Inputs</span><span>🐄 Animal Health</span><span>💧 Irrigation</span></div>
     </div>
   </div>
-  <div class="hero-bottom">
-    <div class="container stat-grid">
-      <div><strong>Healthy</strong><span>Animals</span></div>
-      <div><strong>Productive</strong><span>Farms</span></div>
-      <div><strong>Brighter</strong><span>Future</span></div>
-    </div>
-  </div>
+  <div class="hero-bottom"><div class="container stats">
+    <div><strong>Healthy</strong><span>Animals</span></div>
+    <div><strong>Productive</strong><span>Farms</span></div>
+    <div><strong>Brighter</strong><span>Future</span></div>
+  </div></div>
 </section>
 
 <section id="about" class="section about">
   <div class="container two-col">
     <div class="section-heading reveal">
       <span class="eyebrow">ABOUT MALEELE</span>
-      <h2>Your farming partner from planting to production.</h2>
-      <div class="accent-line"></div>
+      <h2>Your farming partner from planting to production.</h2><div class="accent"></div>
     </div>
-    <div class="about-copy reveal">
+    <div class="copy reveal">
       <p>Maleele Agro-Vet Dealers is here to support farmers, livestock keepers and agricultural businesses with practical products and dependable agro-vet solutions.</p>
       <p>Whether you are growing crops, keeping livestock or building a commercial farming operation, we are here to help you move forward.</p>
-      <div class="check-list">
-        <div>✓ Farmer-focused support</div>
-        <div>✓ Crop & livestock solutions</div>
-        <div>✓ Practical farm supplies</div>
-      </div>
+      <div class="checks"><div>✓ Farmer-focused support</div><div>✓ Crop & livestock solutions</div><div>✓ Practical farm supplies</div></div>
     </div>
   </div>
 </section>
 
 <section id="services" class="section services">
   <div class="container">
-    <div class="section-heading center reveal">
-      <span class="eyebrow">WHAT WE DO</span>
-      <h2>Solutions for the whole farm</h2>
-      <p>From animal care to crop production, Maleele helps farmers stay productive.</p>
-    </div>
+    <div class="section-heading center reveal"><span class="eyebrow">WHAT WE DO</span><h2>Solutions for the whole farm</h2><p>From animal care to crop production, Maleele helps farmers stay productive.</p></div>
     <div class="cards">
-      <article class="card reveal"><div class="icon green-icon">🐄</div><h3>Veterinary Supplies</h3><p>Support animal health and responsible livestock care.</p></article>
-      <article class="card reveal"><div class="icon orange-icon">🌱</div><h3>Crop Protection</h3><p>Solutions to help protect crops and support better yields.</p></article>
-      <article class="card reveal"><div class="icon yellow-icon">🌽</div><h3>Farm Inputs</h3><p>Inputs for farmers preparing for a strong production season.</p></article>
-      <article class="card reveal"><div class="icon green-icon">💧</div><h3>Irrigation</h3><p>Practical irrigation solutions for reliable crop production.</p></article>
-      <article class="card reveal"><div class="icon orange-icon">🐔</div><h3>Stock Feed</h3><p>Feed solutions for poultry, cattle, pigs and other livestock.</p></article>
-      <article class="card reveal"><div class="icon yellow-icon">🚜</div><h3>Farm Equipment</h3><p>Useful equipment and solutions for small and commercial farmers.</p></article>
+      <article class="card reveal"><div class="icon green">🐄</div><h3>Veterinary Supplies</h3><p>Support animal health and responsible livestock care.</p></article>
+      <article class="card reveal"><div class="icon orange">🌱</div><h3>Crop Protection</h3><p>Solutions to help protect crops and support better yields.</p></article>
+      <article class="card reveal"><div class="icon yellow">🌽</div><h3>Farm Inputs</h3><p>Inputs for farmers preparing for a strong production season.</p></article>
+      <article class="card reveal"><div class="icon green">💧</div><h3>Irrigation</h3><p>Practical irrigation solutions for reliable crop production.</p></article>
+      <article class="card reveal"><div class="icon orange">🐔</div><h3>Stock Feed</h3><p>Feed solutions for poultry, cattle, pigs and other livestock.</p></article>
+      <article class="card reveal"><div class="icon yellow">🚜</div><h3>Farm Equipment</h3><p>Useful equipment and solutions for small and commercial farmers.</p></article>
     </div>
   </div>
 </section>
 
 <section id="products" class="section products">
   <div class="container">
-    <div class="section-heading center reveal">
-      <span class="eyebrow">OUR PRODUCTS</span>
-      <h2>The right solution starts here.</h2>
-      <p>Ask us about current stock, availability and the best option for your farm.</p>
-    </div>
+    <div class="section-heading center reveal"><span class="eyebrow">OUR PRODUCTS</span><h2>The right solution starts here.</h2><p>Ask us about current stock, availability and the best option for your farm.</p></div>
     <div class="product-grid">
-      <article class="product-card reveal"><span class="number">01</span><div class="product-emoji">🌽</div><h3>Fertilizers & Inputs</h3><p>Support crop establishment and healthy growth.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20fertilizers%20and%20farm%20inputs." target="_blank" rel="noopener">Ask about this →</a></article>
-      <article class="product-card reveal"><span class="number">02</span><div class="product-emoji">🐄</div><h3>Animal Health</h3><p>Products and support for responsible livestock care.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20veterinary%20supplies." target="_blank" rel="noopener">Ask about this →</a></article>
-      <article class="product-card reveal"><span class="number">03</span><div class="product-emoji">🐔</div><h3>Stock Feed</h3><p>Feed options for healthy and productive livestock.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20stock%20feed." target="_blank" rel="noopener">Ask about this →</a></article>
-      <article class="product-card reveal"><span class="number">04</span><div class="product-emoji">🌿</div><h3>Crop Protection</h3><p>Ask about crop protection solutions for your farm.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20crop%20protection." target="_blank" rel="noopener">Ask about this →</a></article>
+      <article class="product reveal"><b>01</b><div>🌽</div><h3>Fertilizers & Inputs</h3><p>Support crop establishment and healthy growth.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20fertilizers%20and%20farm%20inputs." target="_blank" rel="noopener">Ask about this →</a></article>
+      <article class="product reveal"><b>02</b><div>🐄</div><h3>Animal Health</h3><p>Products and support for responsible livestock care.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20veterinary%20supplies." target="_blank" rel="noopener">Ask about this →</a></article>
+      <article class="product reveal"><b>03</b><div>🐔</div><h3>Stock Feed</h3><p>Feed options for healthy and productive livestock.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20stock%20feed." target="_blank" rel="noopener">Ask about this →</a></article>
+      <article class="product reveal"><b>04</b><div>🌿</div><h3>Crop Protection</h3><p>Ask about crop protection solutions for your farm.</p><a href="https://wa.me/260979603185?text=Hello%20Maleele%2C%20I%20want%20to%20ask%20about%20crop%20protection." target="_blank" rel="noopener">Ask about this →</a></article>
     </div>
   </div>
 </section>
 
-<section id="farmers" class="farmer-banner">
-  <div class="container farmer-content reveal">
-    <div class="farm-icons">🌱 🌽 🚜 🐄</div>
-    <span class="eyebrow light-eyebrow">FOR FARMERS</span>
-    <h2>Your farm. Your vision. Our support.</h2>
-    <p>Let's build productive farms together. Visit us or send a WhatsApp message for product enquiries.</p>
-    <a class="btn btn-white" href="https://wa.me/260979603185" target="_blank" rel="noopener">Talk to Maleele</a>
-  </div>
+<section id="farmers" class="farmer">
+  <div class="container farmer-inner reveal"><div class="farm-icons">🌱 🌽 🚜 🐄</div><span class="eyebrow light">FOR FARMERS</span><h2>Your farm. Your vision. Our support.</h2><p>Let's build productive farms together.</p><a class="btn white" href="https://wa.me/260979603185" target="_blank" rel="noopener">Talk to Maleele</a></div>
 </section>
 
 <section id="contact" class="section contact">
   <div class="container contact-grid">
-    <div class="contact-copy reveal">
-      <span class="eyebrow">GET IN TOUCH</span>
-      <h2>Let's talk about your farm.</h2>
-      <p>Need an input, veterinary product, stock feed or farming solution? Contact Maleele Agro-Vet Dealers.</p>
-      <div class="contact-items">
+    <div class="copy reveal"><span class="eyebrow">GET IN TOUCH</span><h2>Let's talk about your farm.</h2><p>Need an input, veterinary product, stock feed or farming solution? Contact Maleele Agro-Vet Dealers.</p>
+      <div class="contact-list">
         <a href="tel:+260979603185"><span>☎</span><div><small>Call / WhatsApp</small><strong>0979 603185</strong></div></a>
         <div><span>📍</span><div><small>Location</small><strong>Mumbwa New Station, Kabwe Complex</strong></div></div>
         <div><span>🇿🇲</span><div><small>Serving</small><strong>Mumbwa & surrounding farming communities</strong></div></div>
       </div>
     </div>
-    <div class="contact-box reveal">
-      <img src="assets/maleele-logo.png" alt="Maleele Agro-Vet Dealers">
-      <h3>Ready to get started?</h3>
-      <p>Message us directly for product enquiries and availability.</p>
-      <a class="btn btn-primary full" href="https://wa.me/260979603185" target="_blank" rel="noopener">WhatsApp Maleele</a>
-      <a class="btn btn-outline full" href="tel:+260979603185">Call 0979 603185</a>
-    </div>
+    <div class="contact-box reveal"><img src="maleele-logo.png" alt="Maleele Agro-Vet Dealers logo"><h3>Ready to get started?</h3><p>Message us directly for product enquiries and availability.</p><a class="btn primary full" href="https://wa.me/260979603185" target="_blank" rel="noopener">WhatsApp Maleele</a><a class="btn outline full" href="tel:+260979603185">Call 0979 603185</a></div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="container footer-wrap">
-    <div>
-      <img src="assets/maleele-logo.png" alt="Maleele Agro-Vet Dealers">
-      <p>Healthy Animals • Productive Farms • A Brighter Future</p>
-    </div>
-    <div class="footer-links">
-      <a href="#home">Home</a><a href="#services">Services</a><a href="#products">Products</a><a href="#contact">Contact</a>
-    </div>
-  </div>
-  <div class="copyright">© <span id="year"></span> Maleele Agro-Vet Dealers. All rights reserved.</div>
-</footer>
-
+<footer><div class="container footer-wrap"><div><img src="maleele-logo.png" alt="Maleele Agro-Vet Dealers"><p>Healthy Animals • Productive Farms • A Brighter Future</p></div><div class="footer-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#products">Products</a><a href="#contact">Contact</a></div></div><div class="copyright">© <span id="year"></span> Maleele Agro-Vet Dealers. All rights reserved.</div></footer>
 <script src="script.js"></script>
 </body>
 </html>
