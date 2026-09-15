@@ -28,3 +28,16 @@ Product availability changes. The site intentionally says "enquire" rather than 
 Contact: 0979 603185
 Location: Mumbwa New Station, Kabwe Complex
 Logo path: maleele-logo.png
+
+
+V6 REAL PRODUCT PHOTOS:
+The /products folder contains original photos supplied by the site owner:
+- Seed bags and seed display
+- Falcon products
+- Deen Super products
+- Crop protection shelves
+- Jacto HD 400 sprayer boxes
+- K-Bio / Supersoil plant nutrition products
+- Store interior photos
+
+These are displayed as real Maleele shop/product photos. Product availability and pricing should be confirmed by Maleele before publication.
